@@ -464,7 +464,7 @@ export default function AccountPage() {
                 {orders.length === 0 ? (
                   <div className="text-center py-8">
                     <p className="text-gray-500 mb-4">
-                      Vous n'avez pas encore passé de commande.
+                      Vous n&apos;avez pas encore passé de commande.
                     </p>
                     <Link
                       href="/products"
@@ -534,7 +534,7 @@ export default function AccountPage() {
                 {addresses.length === 0 ? (
                   <div className="text-center py-8">
                     <p className="text-gray-500">
-                      Vous n'avez pas encore enregistré d'adresse.
+                      Vous n&apos;avez pas encore enregistré d&apos;adresse.
                     </p>
                   </div>
                 ) : (
